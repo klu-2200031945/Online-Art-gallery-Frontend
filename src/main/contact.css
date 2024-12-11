@@ -1,0 +1,94 @@
+.registercontainer{
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-bottom: 2%;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(100px);
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: transparent;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+.registercontainer h1{
+    font-size: 25px ;
+    text-align: center;
+}
+.input-box input{
+    width: 50vh;
+    height: 5vh;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+.input-box textarea{
+    width: 50vh;
+    height: 10vh;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+.remember-forgot{
+    display:flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-forgot i{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot i:hover{
+    text-decoration: underline;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.registercontainer .btn{
+    width: 70%;
+    height: 45px;
+    border-radius: 40px;
+    border:2px solid rgba(255,255,255,.2);
+    left: 8vh;
+}
+.registercontainer .btn:hover{
+    width: 70%;
+    height: 45px;
+    border-radius: 40px;
+    border:2px solid rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.2);
+}
+.registercontainer .btn p{
+    color: #fff;
+    font-weight: bolder;
+}
+.registercontainer .register-link a{
+    color: #fff;
+    text-decoration: none;
+}
+.registercontainer .register-link a:hover{
+    text-decoration: underline;
+}
+#gender{
+    width: 50vh;
+    height: 5vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+body{
+    background-color: black;
+}
